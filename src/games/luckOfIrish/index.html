@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>InteliSlots - Luck Of The Irish</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="../common/styles.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body onload="init();">
+    <canvas id="gameCanvas" width="1024" height="768"></canvas>
+</body>
+<script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
+<script src="https://code.createjs.com/tweenjs-0.6.2.min.js"></script>
+<script src="https://code.createjs.com/soundjs-0.6.2.min.js"></script>
+<script src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
+
+<script src="models/symbols.js"></script>
+<script src="models/buttons.js"></script>
+<script src="models/helpButtons.js"></script>
+<script src="models/symbolsModel.js"></script>
+<script src="../common/gameConfig.js"></script>
+<script src="gameConfig.js"></script>
+
+<script src="models/paylineMarkers.js"></script>
+<script src="models/paylines.js"></script>
+
+<!-- Common Models -->
+
+<!-- Slot Model Parts -->
+<script src="../common/models/reels.js"></script>
+<script src="../common/models/rows.js"></script>
+<script src="../common/models/reelMeasures.js"></script>
+<script src="../common/models/slotsArr.js"></script>
+
+<!-- Payout Model Parts -->
+<script src="../common/models/payLevels.js"></script>
+<script src="../common/models/winConditions.js"></script>
+
+
+<!-- Common Methods -->
+
+<!-- Create/Manage UI -->
+<script src="../common/methods/manageUI/createInfoScreen.js"></script>
+<script src="../common/methods/manageUI/createButtons.js"></script>
+<script src="../common/methods/manageUI/createSlots.js"></script>
+<script src="../common/methods/manageUI/createSounds.js"></script>
+
+<!-- Manage Slots/Spin -->
+<script src="../common/methods/spin/getRandomInt.js"></script>
+<script src="../common/methods/spin/generateSessionID.js"></script>
+<script src="../common/methods/spin/symbolWeight.js"></script>
+<script src="../common/methods/spin/getSymbol.js"></script>
+<script src="../common/methods/spin/spinSlots.js"></script>
+<script src="../common/methods/spin/stopSlots.js"></script>
+<script src="../common/methods/spin/stopReel.js"></script>
+<script src="../common/methods/spin/spinReel.js"></script>
+<script src="../common/methods/spin/spin.js"></script>
+
+<!-- Manage Payout -->
+
+<!-- Payout Draw Shapes -->
+<script src="../common/methods/payout/draw/drawRectangle.js"></script>
+<script src="../common/methods/payout/draw/drawCircle.js"></script>
+<script src="../common/methods/payout/draw/drawPayline.js"></script>
+<script src="../common/methods/payout/draw/drawLine.js"></script>
+
+<!-- Determine Payout -->
+<script src="../common/methods/payout/getActivePaylines.js"></script>
+<script src="../common/methods/payout/getPayout.js"></script>
+<script src="../common/methods/payout/basicGamePayout.js"></script>
+<script src="../common/methods/payout/didLineWin.js"></script>
+<script src="../common/methods/payout/getWinningLines.js"></script>
+<!-- Main Game Script -->
+<script src="../common/main.js"></script>
+
+</html>

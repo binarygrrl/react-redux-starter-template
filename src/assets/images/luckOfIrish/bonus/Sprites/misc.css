@@ -1,0 +1,23 @@
+/*
+-------------------------------------------------------------------
+Created with TexturePacker https://www.codeandweb.com/texturepacker
+-------------------------------------------------------------------
+Inline:     <i class="yourspritesname"></i>
+Responsive: <div class="yourspritesname"></div>
+*/
+
+
+.BigWin {max-width:1024px; max-height:768px; }
+.BigWin::after {content: '\00a0';display: inline-block; width:1024px; height:768px; background-position: 0.111358574610245% 25.09727626459144%;background-size: 187.6953125% 233.85416666666666%;background-image: url(misc.png);padding: 0; }
+div.BigWin::after {max-width:1024px; width:100%;height:0;padding: 0 0 75% 0;}
+.BonusFrame {max-width:1024px; max-height:768px; }
+.BonusFrame::after {content: '\00a0';display: inline-block; width:1024px; height:768px; background-position: 0.111358574610245% 25.09727626459144%;background-size: 187.6953125% 233.85416666666666%;background-image: url(misc.png);padding: 0; }
+div.BonusFrame::after {max-width:1024px; width:100%;height:0;padding: 0 0 75% 0;}
+.BonusFrame1 {max-width:1024px; max-height:768px; }
+.BonusFrame1::after {content: '\00a0';display: inline-block; width:1024px; height:768px; background-position: 0.111358574610245% 99.90272373540856%;background-size: 187.6953125% 233.85416666666666%;background-image: url(misc.png);padding: 0; }
+div.BonusFrame1::after {max-width:1024px; width:100%;height:0;padding: 0 0 75% 0;}
+.Logo {max-width:1920px; max-height:256px; }
+.Logo::after {content: '\00a0';display: inline-block; width:1920px; height:256px; background-position: 50% 0.06493506493506493%;background-size: 100.10416666666667% 701.5625%;background-image: url(misc.png);padding: 0; }
+div.Logo::after {max-width:1920px; width:100%;height:0;padding: 0 0 13.333333333333334% 0;}
+
+/* $TexturePacker:SmartUpdate:f75bb768379cb91f429dd739545202d0:f2304ab5b7ee1fbe44372e9b141615f1:3270768199dc61ce65ef6f78ecbe9d7e$ */

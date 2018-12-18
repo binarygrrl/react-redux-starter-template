@@ -1,0 +1,26 @@
+/*
+-------------------------------------------------------------------
+Created with TexturePacker https://www.codeandweb.com/texturepacker
+-------------------------------------------------------------------
+Inline:     <i class="yourspritesname"></i>
+Responsive: <div class="yourspritesname"></div>
+*/
+
+
+.Barrel1 {max-width:252px; max-height:401px; }
+.Barrel1::after {content: '\00a0';display: inline-block; width:252px; height:401px; background-position: 50.41916167664671% 95.24517087667162%;background-size: 762.6984126984127% 435.66084788029923%;background-image: url(bonus.png);padding: 0; }
+div.Barrel1::after {max-width:252px; width:100%;height:0;padding: 0 0 159.12698412698413% 0;}
+.Barrel2 {max-width:252px; max-height:401px; }
+.Barrel2::after {content: '\00a0';display: inline-block; width:252px; height:401px; background-position: 65.5688622754491% 95.24517087667162%;background-size: 762.6984126984127% 435.66084788029923%;background-image: url(bonus.png);padding: 0; }
+div.Barrel2::after {max-width:252px; width:100%;height:0;padding: 0 0 159.12698412698413% 0;}
+.FlashBonusMessage {max-width:840px; max-height:65px; }
+.FlashBonusMessage::after {content: '\00a0';display: inline-block; width:840px; height:65px; background-position: 0.09242144177449169% 99.94054696789536%;background-size: 228.8095238095238% 2687.6923076923076%;background-image: url(bonus.png);padding: 0; }
+div.FlashBonusMessage::after {max-width:840px; width:100%;height:0;padding: 0 0 7.738095238095238% 0;}
+.RespinsIntroBackground {max-width:1920px; max-height:1280px; }
+.RespinsIntroBackground::after {content: '\00a0';display: inline-block; width:1920px; height:1280px; background-position: 50% 0.21413276231263384%;background-size: 100.10416666666667% 136.484375%;background-image: url(bonus.png);padding: 0; }
+div.RespinsIntroBackground::after {max-width:1920px; width:100%;height:0;padding: 0 0 66.66666666666667% 0;}
+.RespinsIntroText {max-width:699px; max-height:398px; }
+.RespinsIntroText::after {content: '\00a0';display: inline-block; width:699px; height:398px; background-position: 0.08176614881439084% 95.0333580429948%;background-size: 274.964234620887% 438.94472361809045%;background-image: url(bonus.png);padding: 0; }
+div.RespinsIntroText::after {max-width:699px; width:100%;height:0;padding: 0 0 56.93848354792561% 0;}
+
+/* $TexturePacker:SmartUpdate:6dfbe46547cdfd603df281de78bbc2f8:c6783c2b0b3ba90fe1ec455f630ab47c:491ebdd329a299daab0c6e72d8519e78$ */
